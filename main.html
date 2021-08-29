@@ -1,0 +1,106 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Hidaya Feedback Form</h1>
+    
+    <p id="description" class="description">Your feedback would be much appreciated for improving our operations!</p>
+  </header>
+  
+  <form id="survey-form">
+    <div class="input">
+      <label id="name-label" for="name">Name:<br></label>
+      <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+    </div>
+    
+    <div class="input">
+      <label id="email-label" for="email">Email:<br></label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+    </div>
+    
+    <div class="input">
+      <label id="number-label" for="number">Age:<br></label>
+      <input style="width: 170px;" type="number" name="age" id="number" min="13" max="130" placeholder="Enter your age" required >
+    </div>
+    
+    <div class="input">
+      <label id="id-label" for="number">Which describes your relation to Hidaya Foundation?<br></label>
+      <select name="id" id="dropdown" required>
+        <option disabled selected value>Select one</option>
+        <option value="student">Hidaya Employee</option>
+        <option value="job">First-time donor</option>
+        <option value="learner">Regular donor</option>
+        <option value="preferNo">Prospective donor</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    
+    <div class="input">
+      <p>Were you satisfied with your experience with Hidaya?</p>
+      <label>
+        <input
+          name="satisfied"
+          value="yes"
+          type="radio"
+          class="input-radio"/>
+        Yes</label>
+      <label>
+        <input
+          name="user-recommend"
+          value="no"
+          type="radio"
+          class="input-radio"/>
+        No</label>
+      
+       <div class="input">
+      <p>Which charity projects would you be most interested in supporting in the future?</p>
+
+      <label
+        ><input
+          name="projects"
+          value="ed-programs"
+          type="checkbox"
+          class="input-checkbox"
+        />IT and general education programs</label>
+      <label
+        ><input
+          name="projects"
+          value="oprhan-programs"
+          type="checkbox"
+          class="input-checkbox"
+        />Orphanage construction</label><label
+        ><input
+          name="projects"
+          value="employment-programs"
+          type="checkbox"
+          class="input-checkbox"
+        />Employment opportunities</label><label
+        ><input
+          name="projects"
+          value="widow-programs"
+          type="checkbox"
+          class="input-checkbox"
+        />Widow support</label>
+    </div>
+      
+      <div class="input">
+      <p>If you have any additional comments or concerns, please leave them here!</p>
+      <textarea
+        id="feedback"
+        class="input-feedback"
+        name="feedback"
+        placeholder="Type comments here"
+      ></textarea>
+    </div>
+      
+       <div class="input">
+      <button type="submit" id="submit" class="submit-button">
+        Submit Feedback
+      </button>
+    </div>
+      
+    </form>
+
+  <!--todo: 
+on 12 10:27pm 8/27/21
+on 16
+
+            
